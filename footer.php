@@ -1,5 +1,5 @@
 <footer>
-    piemols
+    copyright
 </footer>
 <script src="assets/script.js"></script>
 </body>

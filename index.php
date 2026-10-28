@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
 <main>
-    tekstje lala
+    <p>tekstje lala</p>
 </main>
 <?php require_once('footer.php'); ?>
