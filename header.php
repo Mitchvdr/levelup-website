@@ -12,6 +12,9 @@
 <body>
     <header>
         <nav class="navbar">
+            <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Logo van LevelUp">
+            </a>
             <a href="index.html">Home</a>
             <a href="over-ons.html">Over Ons</a>
             <a href="producten.html">Producten</a>
