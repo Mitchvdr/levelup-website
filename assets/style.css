@@ -1,6 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .tilt-neon {
   font-family: "Tilt Neon", sans-serif;
@@ -19,53 +20,158 @@
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2B2E31;
-    gap: 30px;
-  padding: 30px 320px 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2B2E31;
+  gap: 30px;
+  padding: 15px 40px 15px 40px;
+  position: fixed;
+  width: 100%;
+}
+main {
+  padding-top: 50px;
 }
 
 .logo img {
   width: 140px;
-    height: auto;
-    display: block;
-    margin: -30px -30px;
+  height: auto;
+  display: block;
+  margin: -30px -30px;
 }
 
 .navbar a {
+  position: relative;
   text-decoration: none;
   color: #D9D9D9;
   font-size: 16px;
   font-weight: 500;
   font-family: "Orbitron";
+  padding: 10px 15px;
+  transition: 0.3s ease;
+  border: 2px solid gray;
+  border-radius: 20px;
 }
 
-.navbar a:hover {
-  color: #007bff;
+.navbar .logo {
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar a:hover:not(.logo) {
+  color: white;
+  border: 2px solid white;
 }
 
 body {
-    background-color: #22262D;
+  background-color: #22262D;
 }
 
 h1 {
-    font-family: "Tilt Neon";
-    font-size: 90px;
-    font-weight: 2;
-    text-align: center;
-    color: #E6F7E5;
-    padding: 50px 0px 0px;
-    text-shadow: 0px 0px 5px #0A890E, 0px 0px 3px #0A890E, 0px 0px 8px #0A890E;
+  font-family: "Tilt Neon";
+  font-size: 70px;
+  font-weight: 2;
+  text-align: center;
+  color: #E6F7E5;
+  padding: 50px 0px 0px;
+  text-shadow: 0 0 15px #0A890E, 0 0 12px #0A890E, 0 0 10px #0A890E;
 }
 h2 {
-    font-family: "Tilt Neon";
-    font-size: 60px;
-    font-weight: 2;
-    text-align: center;
-    color: #E6F7E5;
-    padding: 5px 0px 0px;
-    text-shadow: 0px 0px 5px #A5090B, 0px 0px 3px #A5090B, 0px 0px 8px #A5090B;
+  font-family: "Tilt Neon";
+  font-size: 50px;
+  font-weight: 2;
+  text-align: center;
+  color: #E6F7E5;
+  padding: 5px 0px 0px;
+  text-shadow: 0px 0px 15px #A5090B, 0px 0px 12px #A5090B, 0px 0px 10px #A5090B;
+}
+
+.container {
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  padding: 0px 512px;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px;
+  background-color: #2B2E31;
+  margin: 25px 512px;
+  gap: 0;
+  justify-content: flex-start;
+  border-radius: 13px;
+}
+
+.text {
+  flex: 1;
+  font-family: "Orbitron";
+  color: #D9D9D9;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.text p {
+  padding: 10px 0;
+}
+
+.text li {
+  margin: 12px 0;
+}
+.image {
+  flex: 1;
+}
+.image img {
+  margin: 20px;
+  width: 80%;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 5px 4px #0A890E;
+  display: block;
+}
+
+.shop .image img{
+  margin: 0;
+  display: flex;
+}
+
+.shop .text p{
+  padding: 0;
+}
+
+.shop h2 {
+  text-align: left;
+}
+.shop .text {
+  flex: 2;
+  margin-left: -45px;
+}
+#nieuwsbrief {
+  text-align: center;
+  text-decoration: none;
+  color: #D9D9D9;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Orbitron";
+  padding: 10px 100px;
+  transition: 0.3s ease;
+  border: 2px solid gray;
+  border-radius: 20px;
+  justify-content: center;
+  display: block;
+  width: fit-content;
+  margin: 50px auto;
+}
+#nieuwsbrief:hover {
+  color: white;
+  border: 2px solid white;
+}
+#maps {
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+footer {
+  padding-bottom: 70px;
 }

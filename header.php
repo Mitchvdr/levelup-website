@@ -12,11 +12,12 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
             <img src="img/logo.png" alt="Logo van LevelUp">
             </a>
-            <a href="index.html">Home</a>
-            <a href="over-ons.html">Over Ons</a>
-            <a href="producten.html">Producten</a>
+            <a href="index.php">Home</a>
+            <a href="over-ons.php">Over Ons</a>
+            <a href="producten.php">Producten</a>
+            <a href="contact.php">Contact</a>
         </nav>
     </header>

@@ -3,7 +3,8 @@
 <main>
     <h1>High-end Gaming Gear</h1>
     <h2>In Breda</h2>
-    <div>
+    <div class="container">
+    <div class="text">
     <p>
         Bij LevelUp Hardware draait alles om performance. Of je nu op zoek bent naar een nieuwe laptop due de nieuwste AAA-titels moeiteloos draait, of je huidige rig een professionele onderhoudstbeurt nodig heeft; wij staaan voor je klaar
     </p>
@@ -13,14 +14,24 @@
     <p>
         Waarom kiezen voor ons?
     </p>
+    <div class="image">
+        <img src="" alt="Foto van een laptop.">
     </div>
-
-    <div>
-        <p>
-            <bold>Curated Selectie:</bold> Wij verkopen alleen laptops waar we zelf achter staan. Geen concessies op bouwkwaliteit of koeling.
-            <bold>Expert Onderhoud:</bold> Van het vervangen van koelpasta tot complexe hardware-upgrades; wij verlengen de levensduur van je machine.
-            <bold>Persoonlijk advies</bold> Geen standaard verkooppraatjes, maar eerljik advies gebaseerd op jouw favoriete games en workflow.
-        </p>
+    </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="img/front-door.png" alt="Foto ingang winkel.">
+        </div>
+        <div class="text">
+            <p>
+                <ul>
+                    <li><b>Curated Selectie:</b> Wij verkopen alleen laptops waar we zelf achter staan. Geen concessies op bouwkwaliteit of koeling.</li>
+                    <li><b>Expert Onderhoud:</b> Van het vervangen van koelpasta tot complexe hardware-upgrades; wij verlengen de levensduur van je machine.</li>
+                    <li><b>Persoonlijk advies</b> Geen standaard verkooppraatjes, maar eerljik advies gebaseerd op jouw favoriete games en workflow.</li>
+                </ul>
+            </p>
+        </div>
     </div>
 </main>
 <?php require_once('footer.php'); ?>
