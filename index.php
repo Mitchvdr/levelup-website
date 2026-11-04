@@ -4,20 +4,20 @@
     <h1>High-end Gaming Gear</h1>
     <h2>In Breda</h2>
     <div class="container">
-    <div class="text">
-    <p>
-        Bij LevelUp Hardware draait alles om performance. Of je nu op zoek bent naar een nieuwe laptop due de nieuwste AAA-titels moeiteloos draait, of je huidige rig een professionele onderhoudstbeurt nodig heeft; wij staaan voor je klaar
-    </p>
-    <p>
-        In onze fysieke winkel combineren we de nostalgische sfeer van de jaren '80 arcades met de brute kracht van de hardware van morgen.
-    </p>
-    <p>
-        Waarom kiezen voor ons?
-    </p>
-    <div class="image">
-        <img src="" alt="Foto van een laptop.">
-    </div>
-    </div>
+        <div class="text">
+            <p>
+                Bij LevelUp Hardware draait alles om performance. Of je nu op zoek bent naar een nieuwe laptop due de nieuwste AAA-titels moeiteloos draait, of je huidige rig een professionele onderhoudstbeurt nodig heeft; wij staaan voor je klaar
+            </p>
+            <p>
+                In onze fysieke winkel combineren we de nostalgische sfeer van de jaren '80 arcades met de brute kracht van de hardware van morgen.
+            </p>
+            <p>
+                Waarom kiezen voor ons?
+            </p>
+        </div>
+        <div class="laptop">
+            <img src="img/laptop.webp" alt="Foto van een laptop.">
+        </div>
     </div>
     <div class="container">
         <div class="image">
