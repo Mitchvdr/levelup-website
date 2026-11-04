@@ -9,15 +9,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Tilt+Neon&display=swap" rel="stylesheet">
     </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="index.php" class="logo">
-            <img src="img/logo.png" alt="Logo van LevelUp">
-            </a>
-            <a href="index.php">Home</a>
-            <a href="over-ons.php">Over Ons</a>
-            <a href="producten.php">Producten</a>
-            <a href="contact.php">Contact</a>
-        </nav>
-    </header>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.php" class="logo">
+                <img src="img/logo.png" alt="Logo van LevelUp">
+                </a>
+                <a href="index.php">Home</a>
+                <a href="over-ons.php">Over Ons</a>
+                <a href="producten.php">Producten</a>
+                <a href="contact.php">Contact</a>
+            </nav>
+        </header>
