@@ -4,6 +4,9 @@
     <h1>Producten</h1>
     <h2>Voor de serieuze gamer</h2>
     <div class="shop">
+        <div class="image">
+            <img src="img/laptop.webp" alt="Foto van laptop">
+        </div>
         <div class="text">
             <h2>Gaming Laptop X1</h2>
             <p><b>&euro;1499</b></p>
@@ -21,6 +24,9 @@
         </div>
     </div>
     <div class="shop">
+        <div class="image">
+            <img src="img/headset.webp">
+        </div>
         <div class="text">
             <h2>Pro Gaming Headset</h2>
             <p><b>&euro;199</b></p>

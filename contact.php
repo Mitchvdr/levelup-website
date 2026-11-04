@@ -18,6 +18,14 @@
         </p>
        </div>
     </div>
+    <form class="form" method="post">
+        <label for="name">Naam:</label>
+        <input type="text" id="name" placeholder="Vul hier je naam">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="e-mailadres">
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+    </form>
     <a id="nieuwsbrief" href="">Schrijf je in voor de nieuwsbrief!</a>
     <iframe 
         id="maps"
